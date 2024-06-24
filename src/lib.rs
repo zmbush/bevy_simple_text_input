@@ -454,6 +454,7 @@ fn create(
                         sections: vec![TextSection {
                             value: placeholder.value.clone(),
                             style: placeholder_style,
+                            ..default()
                         }],
                         ..default()
                     },
